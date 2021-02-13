@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 body {
+  background: #fff;
   line-height: 1;
 }
 ol, ul {
@@ -44,3 +45,64 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+nav {
+  margin-top: 25px;
+}
+
+nav, article, aside, footer section {
+  margin: 0 auto;
+  width: 900px;
+}
+
+hr {
+  clear: both;
+  border: 0;
+  height: 13px;
+  background-image: url('../img/hr.png');
+}
+
+
+h2 {
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+}
+
+
+.print img {
+  margin-right: 3px;
+}
+
+main p {
+  color: #333;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-indent: 30px;
+  margin: 20px 0px;
+}
+
+.date {
+  float: left;
+}
+
+.print {
+  text-decoration: none;
+  padding-left: 30px;
+  float: right;
+}
+.print, .date {
+  color: #a9a8a5;
+  font-family: 'Abel', sans-serif;
+  font-size: .8em;
+  margin: 0;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 33px;
+}
+
+
+* {
+  font-family: times;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
